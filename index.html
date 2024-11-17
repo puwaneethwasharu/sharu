@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latha Fashion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+            color: white;
+            padding: 20px 0;
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .banner p {
+            font-size: 1.2rem;
+            margin: 10px 0 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            margin: 10px 0 0;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .new-arrivals {
+            padding: 20px;
+            background-color: #ffffff;
+        }
+
+        .new-arrivals h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #ff6f61;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .product {
+            text-align: center;
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 10px;
+            background: #f9f9f9;
+        }
+
+        .product img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+
+        .product-name {
+            font-size: 1.1rem;
+            margin: 10px 0 5px;
+            color: #333;
+        }
+
+        .product-price {
+            color: #ff6f61;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff6f61;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <h1>Latha Fashion</h1>
+            <p>Beautiful Frocks for Girls</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="new-arrivals">
+            <h2>New Arrivals</h2>
+            
+            <div class="product-grid">
+                <div class="product">
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2Flatest-dress-ideas--2744449766510251%2F&psig=AOvVaw0ha7PslCHUpBmWsJm6_Wej&ust=1731950566268000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMia0-Xw44kDFQAAAAAdAAAAABAd" alt="Frock 1">
+                    <p class="product-name">Pink Floral Frock</p>
+                    <p class="product-price">Rs.1000.00</p>
+                </div>
+
+                <div class="product">
+                    <img src="C:\Users\Intel\Downloads\WhatsApp Image 2024-10-07 at 8.09.54 AM.jpeg" alt="Frock 2">
+                    <p class="product-name">Blue Party Frock</p>
+                    <p class="product-price">Rs.1100.00</p>
+                </div>
+                <!-- Add more products as needed -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Latha Fashion. All rights reserved.</p>
+    </footer>
+    <script>
+        // Placeholder for future interactivity
+        document.addEventListener("DOMContentLoaded", () => {
+            console.log("Welcome to Latha Fashion!");
+        });
+    </script>
+</body>
+</html>
